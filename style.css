@@ -129,3 +129,7 @@ footer{padding:45px 5vw;display:flex;align-items:end;justify-content:space-betwe
 .contact-form .full{grid-column:1/-1}
 .contact-form label{display:block;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#aaa;margin-bottom:9px}
 @media(max-width:900px){.contact-body{grid-template-columns:1fr;gap:40px;padding:30px 7vw 90px}.contact-form{grid-template-columns:1fr}.contact-hero{padding:140px 7vw 50px}}
+
+/* Bandeau liste d'attente */
+.promo-bar{position:fixed;z-index:30;top:0;left:0;right:0;height:38px;display:flex;align-items:center;justify-content:center;gap:16px;padding:0 4vw;background:var(--gold);color:#101010;font-size:9px;letter-spacing:2px;text-transform:uppercase;text-align:center;transition:background .3s}.promo-bar:hover{background:#d9c29a}.promo-bar b{font-weight:600;white-space:nowrap}.nav{top:38px}.hero-copy{padding-top:138px}
+@media(max-width:900px){.promo-bar{padding:0 4vw;flex-direction:column;gap:2px;font-size:8px;letter-spacing:1.5px}.hero-copy{padding-top:170px}}
