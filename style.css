@@ -133,3 +133,13 @@ footer{padding:45px 5vw;display:flex;align-items:end;justify-content:space-betwe
 /* Bandeau liste d'attente */
 .promo-bar{position:fixed;z-index:30;top:0;left:0;right:0;height:38px;display:flex;align-items:center;justify-content:center;gap:16px;padding:0 4vw;background:var(--gold);color:#101010;font-size:9px;letter-spacing:2px;text-transform:uppercase;text-align:center;transition:background .3s}.promo-bar:hover{background:#d9c29a}.promo-bar b{font-weight:600;white-space:nowrap}.nav{top:38px}.hero-copy{padding-top:138px}
 @media(max-width:900px){.promo-bar{padding:0 4vw;flex-direction:column;gap:2px;font-size:8px;letter-spacing:1.5px}.hero-copy{padding-top:170px}}
+
+/* Production & réalisation */
+.prod-hero{padding:190px 8vw 60px}.prod-hero h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(55px,9vw,130px);line-height:.88;margin:20px 0}.prod-hero h1 em{color:var(--gold)}
+.prod-photo{margin:0;padding:0 8vw}.prod-photo img{display:block;width:100%;height:auto}.prod-photo figcaption{color:var(--muted);font-size:10px;letter-spacing:2px;text-transform:uppercase;margin-top:12px}
+.prod-body{display:grid;grid-template-columns:1fr 1fr;gap:70px;padding:100px 8vw;border-bottom:1px solid #25282a}.prod-body h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(40px,5vw,66px);line-height:.92;margin:18px 0 28px}.prod-body p:not(.eyebrow){color:var(--muted);line-height:1.9;font-size:14px}
+.prod-body dl{margin:0}.prod-body dl div{border-bottom:1px solid var(--line);padding:18px 0}.prod-body dt{color:var(--gold);font-size:10px;letter-spacing:2px;text-transform:uppercase;margin-bottom:7px}.prod-body dd{margin:0;font-size:14px;line-height:1.7}.prod-body dd a{text-decoration:underline}
+.prod-actions{display:flex;flex-wrap:wrap;gap:18px;justify-content:center}
+.prod-teaser img{display:block;width:100%;height:auto}
+@media(max-width:900px){.prod-body{grid-template-columns:1fr;gap:40px;padding:70px 7vw}.prod-hero{padding:150px 7vw 45px}.prod-photo{padding:0 7vw}}
+@media(min-width:901px) and (max-width:1250px){.nav .button{display:none}.nav nav{gap:16px}}
